@@ -179,7 +179,7 @@ static int plversion_remove(struct platform_device *pdev)
 // Device tree compatible strings
 #ifdef CONFIG_OF
 static struct of_device_id plversion_of_match[] = {
-        { .compatible = "reds,plversion", }, /* Used defined name */
+        { .compatible = "reds,plversion", }, /* User defined name */
         { .compatible = "xlnx,version-ip-1.0", }, /* Auto-generated name */
 	{ /* end of list */ },
 };
